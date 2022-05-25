@@ -19,6 +19,7 @@ console.log(res);
 console.log(res.data);
 const posts = this.state.posts.filter(item => item.id !== id);
 this.setState({ posts });
+//window.location.reload();
 })
 }
 render() {
